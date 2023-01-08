@@ -14,4 +14,4 @@ There will be a Text telling which player turn it is and under it the board wher
 <b>While playing:</b><br><br>
 ![middlegame](https://user-images.githubusercontent.com/105053234/211216294-81a8a95e-d7e9-4393-a45a-0dae8874f300.png)<br><br>
 <B>End of game:</b><br><br>
-![endgame](https://user-images.githubusercontent.com/105053234/211216299-0e6f29ca-f23b-42d3-b3d2-b809d27af844.png)
+![endgame](https://user-images.githubusercontent.com/105053234/211216792-a31a7b57-86be-4dfe-a5d9-b698315ce5b3.png)
