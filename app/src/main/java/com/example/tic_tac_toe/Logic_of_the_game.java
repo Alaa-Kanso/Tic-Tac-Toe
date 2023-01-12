@@ -11,7 +11,7 @@ public class Logic_of_the_game {
     private Button home;
     private TextView playerturn;
     private String[] names={"player1, player2"};
-    //row, col,how the line is drawn: 1:horizontal, 2:vertical, 3:diagonal left to right, 4:diagonal right to left
+    //row, col,how the line is drawn: 1:horizontal, 2:vertical, 3:diagonal left to right, 4:diagonal right to left, 5: Tie
     private int[] typeofwin={-1,-1,-1};
     public Logic_of_the_game(){
         gameboard= new int[3][3];
@@ -79,6 +79,7 @@ public class Logic_of_the_game {
             home.setVisibility(View.VISIBLE);
             playagain.setVisibility(View.VISIBLE);
             playerturn.setText("Tie!!!!!");
+            typeofwin=new int[] {0,2,5};
             return true;
         }
         else {

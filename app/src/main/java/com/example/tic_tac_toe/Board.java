@@ -130,6 +130,8 @@ public class Board extends View {
             case 4:
                 drawDiagonallinerighttoleft(canvas);
                 break;
+            case 5:
+                break;
         }
     }
     //draw the X
